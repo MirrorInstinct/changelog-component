@@ -1,0 +1,59 @@
+#log-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 200px;
+}
+
+#log-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#log-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#log-line {
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#log-line p{
+    position: relative;
+    right: 8px;
+}
+
+#log-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#log-btn {
+    cursor: pointer;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    #log-container {
+        margin: 70px;
+        min-width: 600px;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    #log-container {
+        margin: 50px;
+        min-width: 600px;
+    }
+  }
